@@ -1,0 +1,32 @@
+/* Navigation Bar Style */
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(0.5turn,rgb(188, 230, 0), rgb(244, 245, 178));
+    height: 130px;
+}
+
+.navlogo {
+  display:flex; 
+  width: 115px;
+  height: 115px; 
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.nav-item {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-item li a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}

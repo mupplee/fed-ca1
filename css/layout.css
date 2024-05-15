@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Column Flex Container Class */
+
+.flex-nav-column {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding-top: 20px;
+}
+
+.nav-column-one {
+    width:  25%;
+    margin: 0px 20px;
+}
+
+.nav-column-two {
+    width:  25%;
+    margin: 0px 20px;
+}
+
+.nav-column-three {
+    width:  25%;
+    margin: 0px 20px;
+}
+
+.nav-column-four {
+    width:  25%;
+    margin: 0px 20px;
+}
+
+.flex-nav-column ul,li{
+    margin-top: 20px;
+}
