@@ -1,0 +1,37 @@
+/* Hero css */
+
+.hero-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section-index {
+    background-image: linear-gradient(rgba(225, 179, 179, 0.2), rgba(0, 0, 0, 0.7)), url("../images/hero-light.png");
+    /* From: https://www.freepik.com/free-photo/eco-concept-light-bulb-grow-grass_1010173.htm#fromView=search&page=1&position=11&uuid=897a10cf-ce36-4310-beb5-ae02346cb8a8*/
+    height: 100vh;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;   
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #dddddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover{
+    background-color: #ffffff;
+}

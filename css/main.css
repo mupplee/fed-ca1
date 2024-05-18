@@ -12,3 +12,9 @@ footer {
     height: 55vh;
     margin-top: auto;
 }
+
+footer li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}

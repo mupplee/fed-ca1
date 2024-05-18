@@ -42,6 +42,6 @@
     margin: 0px 20px;
 }
 
-.flex-nav-column ul,li{
+.flex-nav-column ul > li{
     margin-top: 20px;
 }

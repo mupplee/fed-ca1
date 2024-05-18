@@ -1,0 +1,15 @@
+/* Basic Styles */
+
+html {
+    font-family: Lucida Sans, Verdana, sans-serif
+}
+
+body {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
