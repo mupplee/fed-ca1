@@ -50,7 +50,8 @@
 .about-column-one img {
     display:flex; 
     width: 400px;
-    height: 400px; 
+    height: 400px;
+    border-radius: 30px;
 }
 
 .about-column-two {
