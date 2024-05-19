@@ -1,20 +1,26 @@
-
-
-
-
-
-
 /* Footer */
 footer {
-    align-items: center;
     color: white;
     background-color: black;
     height: 55vh;
     margin-top: auto;
+    text-align: center;
 }
 
-footer li a {
+footer ul li a, footer a, footer ul{
     display: block;
     color: white;
     text-decoration: none;
+    list-style-type: none;
+}
+
+footer ul li a:hover , footer a:hover {
+    border-radius: 3px;
+    background-color: rgb(66, 62, 62);
+    color: white;
+    text-align: center;
+}
+
+.address {
+    text-align: center;
 }

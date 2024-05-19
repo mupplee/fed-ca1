@@ -1,19 +1,142 @@
+/* index Column Flex Container Class */
+.flex-main-column-container{
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding-top: 20px;
+}
 
+.flex-main-column-one {
+    width: 50%;
+    margin: 50px 20px;
+}
 
+.flex-main-column-one img{
+    display:flex; 
+    width: 400px;
+    height: 400px; 
+}
 
+.flex-main-column-two{
+    width: 50%;
+    margin: 50px 20px;
+}
 
+.flex-main-column-three{
+    width: 50%;
+    margin: 50px 20px;
+}
 
+/* about Column Flex Container Class */
 
+.about-container {
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 30px 0;
+    background-color: #ebebeb69;
+    border-radius: 30px;
+}
 
+.about-container h1 {
+    text-align: center;
+}
 
+.about-column-one {
+    width: 50%;
+    margin: 0px 20px;
+}
 
+.about-column-one img {
+    display:flex; 
+    width: 400px;
+    height: 400px; 
+}
 
+.about-column-two {
+    text-align: center;
+    margin: 50px auto;
+}
 
+.about-column-three {
+    text-align: center;
+    margin: 50px auto;
+}
 
+.about-Interests-container {
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+}
 
+.about-Interests-one {
+    width: 33.33%;
+    margin: 0px 20px;
+}
+
+.about-Interests-two {
+    width: 33.33%;
+    margin: 0px 20px;
+}
+
+.about-Interests-three {
+    width: 33.33%;
+    margin: 0px 20px;
+}
+
+/* Aspirations Flip card styles */
+.flip-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner { /* Animation rotate */
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 1px solid #646464;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.flip-card-front { 
+    background-color: #fff;
+    color: black;
+}
+
+.flip-card-back { /* Animation rotate back */
+    background-color: #ffffff;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.flip-card-content {
+    padding: 20px;
+}
 
 /* Footer Column Flex Container Class */
-
 .flex-nav-column {
     display: flex;
     justify-content: space-evenly;
@@ -40,6 +163,10 @@
 .nav-column-four {
     width:  25%;
     margin: 0px 20px;
+}
+
+.nav-column-four img {
+    width: 40px;
 }
 
 .flex-nav-column ul > li{
