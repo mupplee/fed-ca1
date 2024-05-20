@@ -1,0 +1,39 @@
+/* index Column Flex Container Class */
+.flex-main-column-container{
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.flex-main-column-container img{
+    display: flex;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.flex-main-column-one {
+    width: 50%;
+    margin: 50px 20px;
+}
+
+.flex-main-column-two{
+    width: 50%;
+    margin: 50px 20px;
+}
+
+.flex-main-column-three{
+    width: 50%;
+    margin: 50px 20px;
+}
+
+/* Figure & Figcaption Styles */
+
+figcaption {
+    background-color: wheat;
+    padding: 10px;
+}
+
+figure img {
+    display: block;
+}

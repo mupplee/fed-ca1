@@ -1,0 +1,57 @@
+/* about Column Flex Container Class */
+
+.about-container {
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 30px 0;
+    background-color: #ebebeb69;
+    border-radius: 30px;
+}
+
+.about-container h1 {
+    text-align: center;
+}
+
+.about-column-one {
+    width: 50%;
+    margin: 0px 20px;
+}
+
+.about-column-one img {
+    display:flex; 
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.about-column-two {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.about-column-three {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.about-Interests-container {
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.about-Interests-one {
+    width: 33.33%;
+    margin: 0px 20px;
+}
+
+.about-Interests-two {
+    width: 33.33%;
+    margin: 0px 20px;
+}
+
+.about-Interests-three {
+    width: 33.33%;
+    margin: 0px 20px;
+}

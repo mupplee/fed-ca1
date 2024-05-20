@@ -1,3 +1,44 @@
+/* Navigation Bar Style */
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(0.5turn,rgb(137, 168, 0), rgb(124, 126, 36));
+    height: 80px;
+}
+
+.navlogo {
+  display:flex; 
+  width: 70px;
+  height: 70px; 
+  position: absolute;
+  margin: 5px 0 5px 30px;
+}
+
+.nav-item {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-item li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;  
+}
+
+/* Pseudo Hyperlink Class */
+
+.nav-item li a:hover {
+    border-radius: 3px;
+    background-color: rgb(49, 59, 0);
+    color: white;
+}
+
 /* Footer */
 footer {
     color: white;
