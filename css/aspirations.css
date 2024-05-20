@@ -52,7 +52,33 @@
 
 /* Goals */
 .current-goals{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-position: inside;
 }
-.current-goals > li:nth-of-type(1) {
+
+.current-goals li{
+    font-size: 20px;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.current-goals li:nth-of-type(1){
+    list-style-image: url(/images/asp1.png);
+    /*From: https://www.flaticon.com/free-icon/switch-off_11261569?term=off+switch&page=1&position=8&origin=search&related_id=11261569 */
+}
+
+.current-goals li:nth-of-type(2){
+    list-style-image: url(/images/asp2.png);
+    /*From: https://www.flaticon.com/free-icon/public-transport_9235099?term=public+transport&page=1&position=2&origin=search&related_id=9235099 */
+}
+
+.current-goals li:nth-of-type(3){
+    list-style-image: url(/images/asp3.png);
+    /*From: https://www.flaticon.com/free-icon/save-energy_1078561?term=energy+efficient&page=1&position=15&origin=search&related_id=1078561 */
+}
+
+.current-goals li:nth-of-type(4){
+    list-style-image: url(/images/asp4.png);
+    /*From: https://www.flaticon.com/free-icon/cleaning_994928?term=cleaning&page=1&position=3&origin=search&related_id=994928*/
 }
