@@ -1,44 +1,60 @@
-/* about Column Flex Container Class */
+/* styles */
+body {
+    background: linear-gradient(180deg, #fbc412 23%, rgba(76, 161, 70, 0.60828) 100%);
+}
 
+
+p {
+    margin-bottom: 10px;
+}
+
+
+/* about Column Flex Container Class */
 .about-container {
     display: flex;
     margin: 50px auto;
     max-width: 1200px;
     padding: 30px 0;
-    background-color: #ebebeb69;
+    background-color: #ebebeba8;
     border-radius: 30px;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
 }
 
-.about-container h1 {
+.about-container h1{
     text-align: center;
 }
 
 .about-column-one {
-    width: 50%;
     margin: 0px 20px;
 }
 
 .about-column-one img {
     display:flex; 
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 30px;
 }
 
 .about-column-two {
     text-align: center;
-    margin: 50px auto;
+    margin: 50px 30px;
 }
 
 .about-column-three {
     text-align: center;
-    margin: 50px auto;
+    margin: 50px 30px;
 }
 
 .about-Interests-container {
     display: flex;
-    margin: 50px auto;
     max-width: 1200px;
+    text-align: center;
+}
+
+.about-Interests-container img {
+    width: 150px;
+    float: right;
+    margin: 5px;
 }
 
 .about-Interests-one {

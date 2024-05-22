@@ -10,6 +10,7 @@
     background-image: linear-gradient(rgba(225, 179, 179, 0.2), rgba(0, 0, 0, 0.7)), url("../images/hero-light.png");
     /* From: https://www.freepik.com/free-photo/eco-concept-light-bulb-grow-grass_1010173.htm#fromView=search&page=1&position=11&uuid=897a10cf-ce36-4310-beb5-ae02346cb8a8*/
     height: 100vh;
+    filter: grayscale(10%)
 }
 
 .hero-section-about {

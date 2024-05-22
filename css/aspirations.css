@@ -60,7 +60,7 @@
 .current-goals li{
     font-size: 20px;
     align-items: center;
-    line-height: 3rem;
+    line-height: 3  rem;
 }
 
 .current-goals li:nth-of-type(1){

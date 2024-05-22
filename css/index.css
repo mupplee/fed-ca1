@@ -4,6 +4,9 @@
     margin: 50px auto;
     max-width: 1200px;
     align-items: center;
+    background-color: #ffffffa8;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
 }
 
 .flex-main-column-container img{
@@ -27,6 +30,21 @@
     margin: 50px 20px;
 }
 
+.flex-main-column-container{
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.flex-main-column-four {
+    flex: 1 1 300px;
+    margin: 10px;
+    max-width: 400px; 
+}
+
+.flex-main-column-four:hover {
+    transform: scale(1.05);
+}
 /* Figure & Figcaption Styles */
 
 figcaption {
@@ -36,4 +54,24 @@ figcaption {
 
 figure img {
     display: block;
+}
+
+/* card Styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow:  0px 5px 10px 0px rgba(200, 200, 200, 0.3);
+}
+
+.card > img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.card-text {
+    text-align: center;
+    margin-top: 20px;
 }
