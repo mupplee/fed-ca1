@@ -1,7 +1,17 @@
+/* basic styles */
+h2 {
+    margin: 30px auto;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(185, 40, 196, 0.767), rgba(255, 126, 95, 1));
+}
+
 /* Aspirations Flip card styles */
 .flip-card-container {
     display: flex;
     justify-content: center;
+    margin: 30px auto;
 }
 
 .flip-card {
@@ -37,19 +47,25 @@
 
 .flip-card-front { 
     background-color: #fff;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .flip-card-back { /* Animation rotate back */
     background-color: #ffffff;
-    color: black;
+    color: rgb(0, 0, 0);
     transform: rotateY(180deg);
 }
 
 .flip-card-content {
     padding: 20px;
+    
 }
 
+.flip-card-content img {
+    display: flex;
+    width: auto;
+    height: 100px;
+}
 /* Goals */
 .current-goals{
     display: flex;
